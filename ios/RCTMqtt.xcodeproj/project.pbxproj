@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B21D06D921086BCA0023716E /* RCTMqtt.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D06D821086BCA0023716E /* RCTMqtt.m */; };
 		B21D06DA21086BCA0023716E /* RCTMqtt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21D06D721086BCA0023716E /* RCTMqtt.h */; };
-		B21D071521086BEA0023716E /* RCTMqtt.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D06E121086BE90023716E /* RCTMqtt.m */; };
 		B21D071621086BEA0023716E /* MQTTSSLSecurityPolicyTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D06E521086BEA0023716E /* MQTTSSLSecurityPolicyTransport.m */; };
 		B21D071721086BEA0023716E /* MQTTTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D06E721086BEA0023716E /* MQTTTransport.m */; };
 		B21D071821086BEA0023716E /* MQTTWebsocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D06E921086BEA0023716E /* MQTTWebsocketTransport.m */; };
@@ -48,8 +47,6 @@
 		B21D06D421086BCA0023716E /* libRCTMqtt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTMqtt.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21D06D721086BCA0023716E /* RCTMqtt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTMqtt.h; sourceTree = "<group>"; };
 		B21D06D821086BCA0023716E /* RCTMqtt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTMqtt.m; sourceTree = "<group>"; };
-		B21D06E021086BE90023716E /* RCTMqtt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTMqtt.h; path = ../../mqtt/ios/RCTMqtt.h; sourceTree = "<group>"; };
-		B21D06E121086BE90023716E /* RCTMqtt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTMqtt.m; path = ../../mqtt/ios/RCTMqtt.m; sourceTree = "<group>"; };
 		B21D06E521086BEA0023716E /* MQTTSSLSecurityPolicyTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTSSLSecurityPolicyTransport.m; sourceTree = "<group>"; };
 		B21D06E621086BEA0023716E /* MQTTCoreDataPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTCoreDataPersistence.h; sourceTree = "<group>"; };
 		B21D06E721086BEA0023716E /* MQTTTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTTransport.m; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 				B21D070D21086BEA0023716E /* Mqtt.h */,
 				B21D071421086BEA0023716E /* Mqtt.m */,
 				B21D06E221086BEA0023716E /* MQTTClient */,
-				B21D06E021086BE90023716E /* RCTMqtt.h */,
-				B21D06E121086BE90023716E /* RCTMqtt.m */,
 				B21D070E21086BEA0023716E /* SocketRocket */,
 				B21D06D721086BCA0023716E /* RCTMqtt.h */,
 				B21D06D821086BCA0023716E /* RCTMqtt.m */,
@@ -295,7 +290,6 @@
 				B21D071621086BEA0023716E /* MQTTSSLSecurityPolicyTransport.m in Sources */,
 				B21D071A21086BEA0023716E /* MQTTSessionManager.m in Sources */,
 				B21D071821086BEA0023716E /* MQTTWebsocketTransport.m in Sources */,
-				B21D071521086BEA0023716E /* RCTMqtt.m in Sources */,
 				B21D072721086BEA0023716E /* SRWebSocket.m in Sources */,
 				B21D072621086BEA0023716E /* MQTTSessionSynchron.m in Sources */,
 				B21D071D21086BEA0023716E /* MQTTDecoder.m in Sources */,
